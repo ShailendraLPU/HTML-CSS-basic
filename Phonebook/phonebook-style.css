@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+}
+
+h1
+{   
+    font-size: 42px; 
+    margin: 0px;
+    background-color: #ff006e;
+    position: sticky;
+    top: 0px;
+}
+
+
+h1::after    /* adding icon after the h1 heading */
+{
+    content: "\1F57F";
+}
+
+
+div[class="sticky"]   /* adding border and colour to the alphabet div  and making it sticky  */
+{
+    font-size: 40px;
+    position: sticky;
+    top: 55px;
+    border-bottom: 2px solid black;
+    background-color: #5e60ce;
+}
+
+.sticky[id="A"]::before     /*adding befor icon to to every contact name which is starting by A */
+{
+    font-family: FontAwesome;
+    font-size: 50px;
+    content: "\f519";
+}
+
+
+.sticky[id="B"]::before      /*adding befor icon to to every contact name which is starting by B */
+{
+    font-family: FontAwesome;
+    font-size: 50px;
+    content: "\f15a";
+}
+
+
+.sticky[id="C"]::before         /*adding befor icon to to every contact name which is starting by C */
+{
+    font-family: FontAwesome;
+    font-size: 50px;
+    content: "\f38c";
+}
+
+
+.sticky[id="D"]::before            /*adding befor icon to to every contact name which is starting by D */
+{
+    font-family: FontAwesome;
+    font-size: 50px;
+    content: "\f394";
+}
+
+
+.sticky[id="K"]::before             /*adding befor icon to to every contact name which is starting by K */
+{
+    font-family: FontAwesome;
+    font-size: 50px;
+    content: "\f42f";
+}
+
+.sticky[id="F"]::before          /*adding befor icon to to every contact name which is starting by F */
+{
+    font-family: FontAwesome;
+    font-size: 50px;
+    content: "\f180";
+}
+
+.sticky[id="G"]::before                          /*adding befor icon to to every contact name which is starting by G */
+{
+    font-family: FontAwesome;
+    font-size: 50px;
+    content: "\f3a9";
+}
+
+
+
+
+.contact   /*making the contact list bottom border black */
+{
+   
+border-bottom: 2px solid black;
+}
+
+
+
+.numbers::after  /* adding icon after the contacts names */
+{
+   margin-left: 10px;
+   font-family: FontAwesome;
+   content: "\f0e0";
+}
+.contact::after  /* adding icon after the contacts names */
+{
+   margin-left: 10px;
+    
+   content: "\1F4DE";
+}
+
+
+
+/*adding alphabet icon to cantact list */
+.A1::before{                
+    margin-right: 10px;
+    font-family : FontAwesome;
+    content : "\f519";
+}
+
+
+.B1::before{
+    margin-right: 10px;
+    font-family : FontAwesome;
+    content : "\f15a";
+}
+
+
+.C1::before{
+    margin-right: 10px;
+    font-family : FontAwesome;
+    content : "\f38c";
+}
+
+
+.D1::before{
+    margin-right: 10px;
+    font-family : FontAwesome;
+    content : "\f394";
+}
+
+
+.K1::before{
+    margin-right: 10px;
+    font-family : FontAwesome;
+    content : "\f42f";
+}
+
+
+
+.F1::before{
+    margin-right: 10px;
+    font-family : FontAwesome;
+    content : "\f180";
+}
+
+
+
+.G1::before{
+    margin-right: 10px;
+    font-family : FontAwesome;
+    content : "\f3a9";
+}
+
+
+
+.numbers
+{
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+
+
+
