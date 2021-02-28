@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+      <head>
+        <link rel="stylesheet" href="style.css">
+    <title>Biodata</title>
+      </head>
+  <body>
+    <div class="addimage">
+
+      <h1> Enter Your Biodata:</h1>
+   <form action="submit.html" method="get">
+
+    <fieldset>
+        <legend> Personal Information </legend>
+     <label for="fname">FirstName</label>
+     <input  type="text" id="fname" required>
+     <label for="Lname">LastName</label>
+     <input  type="Lname" id="Lname" required>
+     <br><br>
+
+     <label>Gender:</label>
+     <br>
+     <label for="Male">Male:</label>
+     <input type="radio" name="gender" id="male" value="male" >
+     <label  for="female">FeMale:</label>
+     <input type="radio" name="gender" id="female" value="female" >
+     <label for="other">Other:</label>
+     <input type="radio" name="gender" id="other" value="other" >
+     <br><br>
+     <label for="date-of-birth">Date_of_Birth:</label>
+     <input type="date"  id="date-of-birth" >
+     <br><br>
+     <label for="email">Email:</label>
+     <input  type="email"  id="email" >
+     <br><br>
+     <label for="telephone">Telephone:</label>
+     <input  type="tel"  id="telephone" >
+     <br><br>
+     <label for="age">Age:</label>
+     <select  name="age" id="age">
+           <option class="nth" value="18">18</option>
+           <option class="nth"value="19">19</option>
+           <option class="nth" value="20">20</option>
+           <option class="nth" value="21">21</option>
+           <option class="nth" value="22">22</option>
+           <option class="nth" value="23">23</option>
+           <option class="nth" value="24">24</option>
+           <option class="nth" value="25">25</option>
+           <option class="nth" class="nth" value="26">26</option>
+           <option class="nth" value="27">27</option>
+           <option class="nth" value="28">28</option>
+           <option class="nth" class="nth" value="29">29</option>
+           <option class="nth" value="30">30</option>  
+     </select>
+
+    </fieldset>
+
+    <fieldset>
+     <legend>Education</legend>
+     <label for="College">College Name:</label>
+     <select name="College" id="College">
+        <option value="Indian Institute of Technology,Delhi">
+                       Indian Institute of Technology,Delhi
+        </option>
+        <option value="Indian Institute of Technology,Bombay"> 
+                       Indian Institute of Technology,Bombay
+        </option>
+        <option value="Amity University">Amity University</option>
+        <option value="Lovely Professional University,Punjaab">
+                       Lovely Professional University,Punjaab
+        </option>
+        <option value="Manipal University">Manipal University</option>
+       
+  </select>
+   <br>&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="text" placeholder="Other College" name="other-College"
+        id="other-college"><br><br>
+     
+    <label for="Course">Course:</label>
+    <select name="Course" id="Course">
+        <option value="Bachelor of Technology B.tech">
+                       Bachelor in Technology
+        </option>
+        <option value="Bachelor of Science BSC"> 
+                       Bachelor in Sceince
+       
+    </select><br><br>
+
+    <label for="Stream">Stream:</label>
+    <select name="Stream" id="Stream">
+        <optgroup label="Bachelor of Technology"></optgroup>
+        <option value="Computer Science and Engineering">
+                       Computer Science and Engineering </option>
+        <option value="Information  Technology">
+                        Information Technology IT </option>
+        <option value="Civil Engineering">
+                        Civil Engineering </option>
+
+        <optgroup label="Bachelor of  Science"></optgroup>
+        <option value="BSc Zoology">BSc Zoology.              
+        </option>
+
+        <option value="BSc Biotechnology">BSc Biotechnology              
+        </option>
+
+        <option value="BSc Agriculture">BSc Agriculture              
+        </option>
+    </select> <br><br>
+    <label for="Graduation Year">Graduation Year:</label>
+     <select name="Grad-year" id="Grad-year">
+           <option value="2019">2019</option>
+           <option value="2021">2021</option>
+           <option value="2022">2022</option>
+           <option value="2023">2023</option>
+           <option value="2024">2024</option>
+           <option value="2025">2025</option>
+          
+     </select><br><br>
+     <label for="Marksheet">Marksheet:</label>
+     <input type="file" id="marksheet">
+
+    
+    </fieldset><br>
+    <input type="submit" value="Submit">
+   
+   </form>
+   
+
+    </div>
+   
+  </body>
+
+
+
+
+
+</html>
