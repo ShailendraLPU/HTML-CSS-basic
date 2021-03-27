@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+ section
+ {
+    background-color: #d8e2dc4D;
+ }
+
+ nav h3
+ {
+   color: white;
+    padding: 2.5%;
+    background-color: #2874f0;
+ }
+
+  nav h3::before
+ {
+    font-family: FontAwesome;
+    content: '\f060';
+    font-size: 1.2rem;
+    padding-left: 2%;
+    padding-right: 4%;
+ }
+
+
+  #container #div1
+ { 
+   padding: 4%;
+ }
+
+ #container #div1 h4
+{
+  padding-bottom: 1%;
+}
+
+#container #div2
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    border-top: 2px solid #d8e2dc ;
+    background-color: #d8e2dc4D;
+}
+
+ #container
+ {
+     display: flex;
+    flex-direction: column;
+}
+
+#container #div2 #logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16%;
+    border: 2px solid #d8e2dc;
+}
+    
+
+#container div:nth-of-type(3)
+{
+    text-align: center;
+    color: #858ae3;
+    background-color: #d8e2dc4D;
+}
+
+
+#container div:nth-of-type(4)
+{
+    background-color: #d8e2dc4D;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+
+#container div:nth-of-type(4) div:nth-of-type(2)
+{
+     display: flex;
+     flex-direction: column; 
+     align-items: flex-end;
+} 
+
+.rowdata
+{
+     background-color: #d8e2dc4D;
+     display: flex;
+     justify-content: space-between;  
+}
+
+.rowfirsthalf
+{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+
+.row2
+{
+    display: flex;
+    justify-content: space-around;
+    width: 22%;
+}
+
+.total{
+    border: 2px solid #8e9aaf ;
+}
+
+ .rowsecondhalf
+ {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 54%;
+ }
+
+ 
+ .rowsecondhalf2
+ {
+   display: flex;
+   justify-content: flex-end;
+   width: 100%;
+ }
+
+   .rowfirsthalftotal
+  {
+    display: flex;
+     justify-content: space-around;
+     width: 54%;
+  }
+i{
+    padding-right: 2%;
+}
+
+.signPart
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.signPart img
+{
+ width: 35%;
+}
+
+footer 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  background-color:#d8e2dc;
+}
+
+.btn
+{
+    font-size: 1em;
+    color: white;
+    background-color: #f77f00;
+    padding: 2%;
+    width: 80%;
+}
+
+ p
+{
+    font-size: 0.9em;
+    color: #8e9aaf;
+}
+
+p
+
+ .rowdata:nth-of-type(9)
+{
+   
+    padding-bottom: 2%;
+}
+
+ .row1
+{
+    background-color: #858ae3;
+    color: white;
+}
+
+ .rsicon::before
+ {
+ font-family: FontAwesome;
+ content: '\f156';
+ }
+
+ .plast
+{
+    padding-left: 5%;
+}
